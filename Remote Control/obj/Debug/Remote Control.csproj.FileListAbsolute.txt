@@ -1,0 +1,13 @@
+C:\Users\Freude\documents\visual studio 2012\Projects\Remote Control\Remote Control\obj\Debug\Remote Control.csprojResolveAssemblyReference.cache
+C:\Users\Freude\documents\visual studio 2012\Projects\Remote Control\Remote Control\obj\Debug\PowerPointAddIn2.Form1.resources
+C:\Users\Freude\documents\visual studio 2012\Projects\Remote Control\Remote Control\obj\Debug\Remote_Control.Properties.Resources.resources
+C:\Users\Freude\documents\visual studio 2012\Projects\Remote Control\Remote Control\obj\Debug\Remote_Control.RibbonControl.resources
+C:\Users\Freude\documents\visual studio 2012\Projects\Remote Control\Remote Control\obj\Debug\Remote Control.csproj.GenerateResource.Cache
+C:\Users\Freude\documents\visual studio 2012\Projects\Remote Control\Remote Control\bin\Debug\Remote Control.dll
+C:\Users\Freude\documents\visual studio 2012\Projects\Remote Control\Remote Control\bin\Debug\Remote Control.pdb
+C:\Users\Freude\documents\visual studio 2012\Projects\Remote Control\Remote Control\bin\Debug\Remote Control.dll.manifest
+C:\Users\Freude\documents\visual studio 2012\Projects\Remote Control\Remote Control\bin\Debug\Remote Control.vsto
+C:\Users\Freude\documents\visual studio 2012\Projects\Remote Control\Remote Control\bin\Debug\Microsoft.Office.Tools.Common.v4.0.Utilities.dll
+C:\Users\Freude\documents\visual studio 2012\Projects\Remote Control\Remote Control\bin\Debug\Microsoft.Office.Tools.Common.v4.0.Utilities.xml
+C:\Users\Freude\documents\visual studio 2012\Projects\Remote Control\Remote Control\obj\Debug\Remote Control.dll
+C:\Users\Freude\documents\visual studio 2012\Projects\Remote Control\Remote Control\obj\Debug\Remote Control.pdb
