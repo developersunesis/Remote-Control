@@ -1,12 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Xml.Linq;
-using PowerPoint = Microsoft.Office.Interop.PowerPoint;
-using Office = Microsoft.Office.Core;
+﻿using System.Diagnostics;
 using System.Runtime.InteropServices;
-using System.Diagnostics;
+using PowerPoint = Microsoft.Office.Interop.PowerPoint;
 
 namespace Remote_Control
 {
@@ -21,11 +15,11 @@ namespace Remote_Control
 
         private void beforeClose(PowerPoint.Presentation Pres, ref bool Cancel)
         {
-            if(Application.Presentations.Count <=1)
+            if (Application.Presentations.Count <= 1)
             {
                 Marshal.ReleaseComObject(this.Application);
                 Process[] processes = Process.GetProcessesByName("powerpnt");
-                foreach(Process p in processes)
+                foreach (Process p in processes)
                 {
                     p.Kill();
                 }
@@ -47,7 +41,7 @@ namespace Remote_Control
             this.Startup += new System.EventHandler(ThisAddIn_Startup);
             this.Shutdown += new System.EventHandler(ThisAddIn_Shutdown);
         }
-        
+
         #endregion
     }
 }

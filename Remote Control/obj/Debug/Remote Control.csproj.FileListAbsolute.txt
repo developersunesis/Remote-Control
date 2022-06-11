@@ -11,3 +11,20 @@ C:\Users\Freude\documents\visual studio 2012\Projects\Remote Control\Remote Cont
 C:\Users\Freude\documents\visual studio 2012\Projects\Remote Control\Remote Control\bin\Debug\Microsoft.Office.Tools.Common.v4.0.Utilities.xml
 C:\Users\Freude\documents\visual studio 2012\Projects\Remote Control\Remote Control\obj\Debug\Remote Control.dll
 C:\Users\Freude\documents\visual studio 2012\Projects\Remote Control\Remote Control\obj\Debug\Remote Control.pdb
+D:\Users\devel\Source\Repos\Remote-Control\Remote Control\bin\Debug\Remote Control.dll
+D:\Users\devel\Source\Repos\Remote-Control\Remote Control\bin\Debug\Remote Control.pdb
+D:\Users\devel\Source\Repos\Remote-Control\Remote Control\bin\Debug\Remote Control.dll.manifest
+D:\Users\devel\Source\Repos\Remote-Control\Remote Control\bin\Debug\Remote Control.vsto
+D:\Users\devel\Source\Repos\Remote-Control\Remote Control\bin\Debug\Microsoft.Office.Tools.Common.v4.0.Utilities.dll
+D:\Users\devel\Source\Repos\Remote-Control\Remote Control\bin\Debug\Microsoft.Office.Tools.v4.0.Framework.dll
+D:\Users\devel\Source\Repos\Remote-Control\Remote Control\bin\Debug\Microsoft.VisualStudio.Tools.Applications.Runtime.dll
+D:\Users\devel\Source\Repos\Remote-Control\Remote Control\bin\Debug\stdole.dll
+D:\Users\devel\Source\Repos\Remote-Control\Remote Control\obj\Debug\Remote Control.csproj.AssemblyReference.cache
+D:\Users\devel\Source\Repos\Remote-Control\Remote Control\obj\Debug\PowerPointAddIn2.Form1.resources
+D:\Users\devel\Source\Repos\Remote-Control\Remote Control\obj\Debug\Remote_Control.Properties.Resources.resources
+D:\Users\devel\Source\Repos\Remote-Control\Remote Control\obj\Debug\Remote_Control.RibbonControl.resources
+D:\Users\devel\Source\Repos\Remote-Control\Remote Control\obj\Debug\Remote Control.csproj.GenerateResource.cache
+D:\Users\devel\Source\Repos\Remote-Control\Remote Control\obj\Debug\Remote Control.csproj.CoreCompileInputs.cache
+D:\Users\devel\Source\Repos\Remote-Control\Remote Control\obj\Debug\Remote Control.csproj.CopyComplete
+D:\Users\devel\Source\Repos\Remote-Control\Remote Control\obj\Debug\Remote Control.dll
+D:\Users\devel\Source\Repos\Remote-Control\Remote Control\obj\Debug\Remote Control.pdb

@@ -1,15 +1,13 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
+﻿using Microsoft.Office.Core;
 using Microsoft.Office.Interop.PowerPoint;
 using Microsoft.Office.Tools.Ribbon;
+using System;
+using System.IO;
+using System.Linq;
 using System.Net;
 using System.Net.Sockets;
-using System.Drawing;
-using System.IO;
 using System.Runtime.InteropServices;
-using Microsoft.Office.Core;
+using System.Text;
 using System.Text.RegularExpressions;
 using System.Threading;
 
@@ -103,7 +101,7 @@ namespace Remote_Control
 
         private void backgroundWorker1_DoWork(object sender, System.ComponentModel.DoWorkEventArgs e)
         {
-           if (Dns.GetHostEntry(GetIPAddress()).AddressList.Count() > 1)
+            if (Dns.GetHostEntry(GetIPAddress()).AddressList.Count() > 1)
             {
                 server = new TcpListener(ipSub, 2522);
                 client = default(TcpClient);

@@ -15,14 +15,14 @@
       <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
         <!--
           UAC Manifest Options
-          If you want to change the Windows User Account Control level replace the 
+          If you want to change the Windows User Account Control level replace the
           requestedExecutionLevel node with one of the following.
 
         <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
         <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
         <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
 
-         If you want to utilize File and Registry Virtualization for backward 
+         If you want to utilize File and Registry Virtualization for backward
          compatibility then delete the requestedExecutionLevel node.
     -->
         <requestedExecutionLevel level="asInvoker" uiAccess="false" />
@@ -43,27 +43,57 @@
   </dependency>
   <dependency>
     <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
-      <assemblyIdentity name="Microsoft.Office.Tools" version="10.0.0.0" publicKeyToken="B03F5F7F11D50A3A" language="neutral" processorArchitecture="msil" />
+      <assemblyIdentity name="Accessibility" version="4.0.0.0" publicKeyToken="B03F5F7F11D50A3A" language="neutral" />
     </dependentAssembly>
   </dependency>
   <dependency>
     <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
-      <assemblyIdentity name="Microsoft.Office.Tools.Common" version="10.0.0.0" publicKeyToken="B03F5F7F11D50A3A" language="neutral" processorArchitecture="msil" />
+      <assemblyIdentity name="Microsoft.CSharp" version="4.0.0.0" publicKeyToken="B03F5F7F11D50A3A" language="neutral" />
     </dependentAssembly>
   </dependency>
   <dependency>
     <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
-      <assemblyIdentity name="Microsoft.Office.Tools.v4.0.Framework" version="10.0.0.0" publicKeyToken="B03F5F7F11D50A3A" language="neutral" processorArchitecture="msil" />
+      <assemblyIdentity name="mscorlib" version="4.0.0.0" publicKeyToken="B77A5C561934E089" language="neutral" />
     </dependentAssembly>
   </dependency>
   <dependency>
     <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
-      <assemblyIdentity name="Microsoft.VisualStudio.Tools.Applications.Runtime" version="10.0.0.0" publicKeyToken="B03F5F7F11D50A3A" language="neutral" processorArchitecture="msil" />
+      <assemblyIdentity name="System" version="4.0.0.0" publicKeyToken="B77A5C561934E089" language="neutral" />
     </dependentAssembly>
   </dependency>
   <dependency>
     <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
-      <assemblyIdentity name="stdole" version="7.0.3300.0" publicKeyToken="B03F5F7F11D50A3A" language="neutral" />
+      <assemblyIdentity name="System.Core" version="4.0.0.0" publicKeyToken="B77A5C561934E089" language="neutral" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="System.Data" version="4.0.0.0" publicKeyToken="B77A5C561934E089" language="neutral" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="System.Data.DataSetExtensions" version="4.0.0.0" publicKeyToken="B77A5C561934E089" language="neutral" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="System.Drawing" version="4.0.0.0" publicKeyToken="B03F5F7F11D50A3A" language="neutral" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="System.Windows.Forms" version="4.0.0.0" publicKeyToken="B77A5C561934E089" language="neutral" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="System.Xml" version="4.0.0.0" publicKeyToken="B77A5C561934E089" language="neutral" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="System.Xml.Linq" version="4.0.0.0" publicKeyToken="B77A5C561934E089" language="neutral" />
     </dependentAssembly>
   </dependency>
   <dependency>
@@ -73,20 +103,56 @@
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
-        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>CtnCtseaMyfROIGe0ENdGO6arHg=</dsig:DigestValue>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>jLCTF8Mm6bD4PDN+rnzN6q0+ReXaNgPh68kMWgatFwI=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Remote Control.dll" size="78336">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Microsoft.Office.Tools.v4.0.Framework.dll" size="28360">
+      <assemblyIdentity name="Microsoft.Office.Tools.v4.0.Framework" version="10.0.0.0" publicKeyToken="B03F5F7F11D50A3A" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>ISZh8727tCrrTeM0j3FK7F6rylc8msZemTZgJIz8QMI=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Microsoft.VisualStudio.Tools.Applications.Runtime.dll" size="83168">
+      <assemblyIdentity name="Microsoft.VisualStudio.Tools.Applications.Runtime" version="10.0.0.0" publicKeyToken="B03F5F7F11D50A3A" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>vDNwPlxZTsrepY5kiLFDjUnvE55xbfsf7N7uzyD0qzo=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Remote Control.dll" size="80384">
       <assemblyIdentity name="Remote Control" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
-        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>xU6CvphT/wp4OBwnuAjyGdglXTM=</dsig:DigestValue>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>FURmRCCuK8bLM0eibxR+1IUlk3ew+Q/NFVRtNbgrsIo=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="stdole.dll" size="16384">
+      <assemblyIdentity name="stdole" version="7.0.3300.0" publicKeyToken="B03F5F7F11D50A3A" language="neutral" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>1s35YcbScS/hlYgV5Rowlg15//Hpd4i3dBYn26ly6Pc=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -115,4 +181,4 @@
       </vstov4:customizations>
     </vstav3:application>
   </vstav3:addIn>
-<publisherIdentity name="CN=LAPTOP-0T8SICHT\Freude" issuerKeyHash="05df79bfbde75e9197eb67caf534f503459624b0" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>0625/Z0XAUKD8oLrORZH1Yo3zO8=</DigestValue></Reference></SignedInfo><SignatureValue>Y0it/cRshUIzjbxtK7C5pToZj7YVM4/iIT65nOXAaU1887EgfZq27rSvsm3nYHUIq8CIzFLG5XOPLyx92uKeNVy1sUh6k/6B1SsvwnWkrWjWFGdJXfNDUM7D+Vpk1yM4b6ozwWFWlA9I8ggVYkztDCdRvNS9v4DfqxXhSNUXkwg=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>tMNWNdvBlzSz4LjcyBqIhAzAcQr+Rd0YOxxWMnHfrNRsBBuF6XHV+xHHIYSxcQ6ukqbxmcbltyuQJrqbJqG0qKMFWgyHsRpTx1e/h3wpCwn3/nDsalEUoM0E66VINgIXiV/B+0xvWpsYvDpgdFJSe34Y7Atoz/w3PRQQTAcIY30=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="efcc378ad5471639eb82f2834201179dfdb9add3" Description="" Url=""><as:assemblyIdentity name="Remote Control.dll" version="1.0.0.0" publicKeyToken="731066db154cafb4" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=LAPTOP-0T8SICHT\Freude</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>at6Kn7nOn9tn7ldWm4Fg/7xf5Rk=</DigestValue></Reference></SignedInfo><SignatureValue>dvdO3AQt9vr0+HKxWKI12/bggaC7AF62aM3Ug7TVj+nMcrEtYvsu8Br6DTCrC+2FYI6KiigjvF9+F9b1q2/xt7adMFemn6JsU6BcHzwZ9o0Yeo1BmnXK69pn3+0CyzfHFwUqLuOv06llZdWWmknKkbcFtelvBYEBitulyhwMSKA=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>tMNWNdvBlzSz4LjcyBqIhAzAcQr+Rd0YOxxWMnHfrNRsBBuF6XHV+xHHIYSxcQ6ukqbxmcbltyuQJrqbJqG0qKMFWgyHsRpTx1e/h3wpCwn3/nDsalEUoM0E66VINgIXiV/B+0xvWpsYvDpgdFJSe34Y7Atoz/w3PRQQTAcIY30=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB8TCCAVqgAwIBAgIQEURwmspRsJtO6aaftArgQzANBgkqhkiG9w0BAQUFADA3MTUwMwYDVQQDHiwATABBAFAAVABPAFAALQAwAFQAOABTAEkAQwBIAFQAXABGAHIAZQB1AGQAZTAeFw0xODEyMjMyMzEwMTlaFw0xOTEyMjQwNTEwMTlaMDcxNTAzBgNVBAMeLABMAEEAUABUAE8AUAAtADAAVAA4AFMASQBDAEgAVABcAEYAcgBlAHUAZABlMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC0w1Y128GXNLPguNzIGoiEDMBxCv5F3Rg7HFYycd+s1GwEG4XpcdX7EcchhLFxDq6SpvGZxuW3K5AmupsmobSoowVaDIexGlPHV7+HfCkLCff+cOxqURSgzQTrpUg2AheJX8H7TG9amxi8OmB0UlJ7fhjsC2jP/Dc9FBBMBwhjfQIDAQABMA0GCSqGSIb3DQEBBQUAA4GBACOEJoDrNN5wSd/1lkzF8nhaV5sW4JPvxI7B0kxU7/yYPlNgf6RhDmmO4yPYA5TKVF6D7WwrSufOOYkDjX6oc1SIXWbeMU/wmsm/VpKLa9pLjHw4NCu5LTJ5D6oDOmizr9mo7EYTqZOhBKsQlA2ix8uxk8fbVYZiMCPgWdYT+xg7</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
+<publisherIdentity name="CN=LAPTOP-0T8SICHT\Freude" issuerKeyHash="05df79bfbde75e9197eb67caf534f503459624b0" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>yaLIX0TVJgmW/tN5m1dwo6kIWWU=</DigestValue></Reference></SignedInfo><SignatureValue>iZTLRxQ61s3mkm45A0M3LsN2Ryq9mtkFmfXeorf35RViSYACsnuXzNQk1U/dT5yCe01bZAaovlzwcdOixt8Cicysy8uFiplz1knNqRTSsbNPSJ/RZ3WQvgnD7hBTQ+DXL3vd4AAGbFqGhxAm6fMbzrbG9hCCXSuneHy+dFVfR5Q=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>tMNWNdvBlzSz4LjcyBqIhAzAcQr+Rd0YOxxWMnHfrNRsBBuF6XHV+xHHIYSxcQ6ukqbxmcbltyuQJrqbJqG0qKMFWgyHsRpTx1e/h3wpCwn3/nDsalEUoM0E66VINgIXiV/B+0xvWpsYvDpgdFJSe34Y7Atoz/w3PRQQTAcIY30=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="655908a9a370579b79d3fe960926d5445fc8a2c9" Description="" Url=""><as:assemblyIdentity name="Remote Control.dll" version="1.0.0.0" publicKeyToken="731066db154cafb4" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=LAPTOP-0T8SICHT\Freude</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>3shoLClmOQ/dwkL48gPvmXesZjs=</DigestValue></Reference></SignedInfo><SignatureValue>GsApwY5i3WFgrpnHtKova2sGHXvbg4EZ0qcYR/NBvq1liCcprRgDvhm9ZmqLNwacM8NPMP0oS1+9GvzlnSIxpxwRqrR2y8SFp+PrNB+A8/q3MyWP5SynYRE9d6lJHtLiu6MUs2bdOIoreoDkgUio9zKX1udcOZRTD2KGxTmG0X0=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>tMNWNdvBlzSz4LjcyBqIhAzAcQr+Rd0YOxxWMnHfrNRsBBuF6XHV+xHHIYSxcQ6ukqbxmcbltyuQJrqbJqG0qKMFWgyHsRpTx1e/h3wpCwn3/nDsalEUoM0E66VINgIXiV/B+0xvWpsYvDpgdFJSe34Y7Atoz/w3PRQQTAcIY30=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB8TCCAVqgAwIBAgIQEURwmspRsJtO6aaftArgQzANBgkqhkiG9w0BAQUFADA3MTUwMwYDVQQDHiwATABBAFAAVABPAFAALQAwAFQAOABTAEkAQwBIAFQAXABGAHIAZQB1AGQAZTAeFw0xODEyMjMyMzEwMTlaFw0xOTEyMjQwNTEwMTlaMDcxNTAzBgNVBAMeLABMAEEAUABUAE8AUAAtADAAVAA4AFMASQBDAEgAVABcAEYAcgBlAHUAZABlMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC0w1Y128GXNLPguNzIGoiEDMBxCv5F3Rg7HFYycd+s1GwEG4XpcdX7EcchhLFxDq6SpvGZxuW3K5AmupsmobSoowVaDIexGlPHV7+HfCkLCff+cOxqURSgzQTrpUg2AheJX8H7TG9amxi8OmB0UlJ7fhjsC2jP/Dc9FBBMBwhjfQIDAQABMA0GCSqGSIb3DQEBBQUAA4GBACOEJoDrNN5wSd/1lkzF8nhaV5sW4JPvxI7B0kxU7/yYPlNgf6RhDmmO4yPYA5TKVF6D7WwrSufOOYkDjX6oc1SIXWbeMU/wmsm/VpKLa9pLjHw4NCu5LTJ5D6oDOmizr9mo7EYTqZOhBKsQlA2ix8uxk8fbVYZiMCPgWdYT+xg7</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

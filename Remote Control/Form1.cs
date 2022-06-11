@@ -1,12 +1,7 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
 using System.Net.Sockets;
 using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace PowerPointAddIn2
@@ -72,7 +67,8 @@ namespace PowerPointAddIn2
                     {
                         break;
                     }
-                } catch (SocketException)
+                }
+                catch (SocketException)
                 {
                     server.Stop();
                     break;
@@ -82,13 +78,13 @@ namespace PowerPointAddIn2
 
         private void done_Click(object sender, EventArgs e)
         {
-           // if (msg.ToString().Length > 0)
-           // {
-                System.IO.StreamWriter writer = new System.IO.StreamWriter(client.GetStream());
-                writer.Write("command:{true}");
-                writer.Flush();
-                writer.Close();
-             //   res = msg.ToString();
+            // if (msg.ToString().Length > 0)
+            // {
+            System.IO.StreamWriter writer = new System.IO.StreamWriter(client.GetStream());
+            writer.Write("command:{true}");
+            writer.Flush();
+            writer.Close();
+            //   res = msg.ToString();
             //}
 
             client.Close();
@@ -105,7 +101,8 @@ namespace PowerPointAddIn2
                     done.Visible = true;
                     ip.Text = "Connected";
                 }
-            }catch (NullReferenceException)
+            }
+            catch (NullReferenceException)
             {
                 this.Close();
             }
